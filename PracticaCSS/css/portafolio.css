@@ -1,0 +1,94 @@
+/* ============================================================
+   portafolio.css
+   Estilos específicos para portafolio.html.
+   Debe cargarse después de general.css.
+   ============================================================ */
+
+header {
+    background-color: #1b7505;
+    color: white;
+}
+
+header p {
+    margin: 10px auto 0;
+    max-width: 900px;
+}
+
+nav {
+    justify-content: center;
+}
+
+nav a.activo {
+    background-color: #0d1910;
+    color: white;
+}
+
+.portafolio-intro {
+    background-color: #f7fff4;
+    border-left: 8px solid #dba112;
+}
+
+.portafolio-item {
+    margin-bottom: 18px;
+}
+
+.portafolio-item figure {
+    margin: 0 0 14px;
+}
+
+.portafolio-item img {
+    display: block;
+    width: 280px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.tabla-habilidades {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla-habilidades th,
+.tabla-habilidades td {
+    padding: 12px;
+    border: 1px solid #cccccc;
+}
+
+.tabla-habilidades progress {
+    width: 100%;
+    height: 18px;
+    margin-bottom: 6px;
+}
+
+.tabla-habilidades span {
+    display: inline-block;
+    font-size: 14px;
+    color: #0d1910;
+}
+
+.tabla-habilidades th {
+    background-color: #1b7505;
+    color: white;
+}
+
+#resultados .resultado-item {
+    background-color: #fff8e6;
+    border-left: 6px solid #dba112;
+}
+
+#resultados .resultado-item p {
+    margin: 0 0 10px;
+}
+
+@media (max-width: 700px) {
+    .portafolio-item {
+        padding: 15px;
+    }
+
+    .tabla-habilidades th,
+    .tabla-habilidades td {
+        font-size: 14px;
+    }
+}

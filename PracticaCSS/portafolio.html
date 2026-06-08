@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portafolio tecnológico</title>
+
+    <link rel="icon" href="img/mundito.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/portafolio.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Portafolio tecnológico</h1>
+        <p>Una muestra de proyectos, habilidades y resultados de aprendizaje en desarrollo web.</p>
+    </header>
+
+    <nav>
+        <a class="class_btn_nav_1" href="index.html">
+            <i class="fa-solid fa-house"></i>
+            Inicio
+        </a>
+
+        <a class="class_btn_nav_1" href="index.html#objetivo">Objetivo</a>
+
+        <a class="class_btn_nav_2" href="index.html#intereses">Intereses</a>
+
+        <a class="class_btn_nav_2" href="index.html#multimedia">Multimedia</a>
+
+        <a class="class_btn_nav_3" href="pages/buscar.html">Buscar</a>
+
+        <a class="class_btn_nav_3 activo" href="portafolio.html">
+            <i class="fa-solid fa-folder-open"></i>
+            Portafolio
+        </a>
+
+        <a class="class_btn_nav_3" href="pages/cto/contacto.html">
+            <i class="fa-solid fa-envelope"></i>
+            Contacto
+        </a>
+    </nav>
+
+    <main>
+
+        <section id="introduccion" class="portafolio-intro">
+            <h2>Introducción</h2>
+            <p>
+                Este portafolio presenta mi trayectoria en desarrollo web, las habilidades adquiridas y los
+                proyectos creados durante la práctica con HTML y CSS.
+            </p>
+            <p class="nota">
+                El diseño sigue el estilo general del proyecto PracticaCSSFinal usando estructura semántica y rutas
+                relativas correctas.
+            </p>
+        </section>
+
+        <section id="mis-proyectos">
+            <h2>Proyectos destacados</h2>
+
+            <article class="tarjeta portafolio-item">
+                <figure>
+                    <img src="img/espe/html.png" alt="Ilustración: diseño de página principal" width="280">
+                    <figcaption>Proyecto de página principal con contenido multimedia.</figcaption>
+                </figure>
+                <h3>Diseño de página principal</h3>
+                <p>
+                    Una página con navegación, secciones informativas, multimedia, formularios y enlaces a páginas
+                    internas.</p>
+                <p>Objetivo: practicar estructura semántica con HTML antes de aplicar estilos avanzados.</p>
+            </article>
+
+            <article class="tarjeta portafolio-item">
+                <figure>
+                    <img src="img/espe/formulario.png" alt="Ilustración: formulario y búsqueda" width="280">
+                    <figcaption>Ejemplo de proyecto para practicar rutas relativas y formularios.</figcaption>
+                </figure>
+                <h3>Formulario y página de búsqueda</h3>
+                <p>
+                    Implementación de un formulario que envía datos con el método GET hacia una página de resultados.
+                    Incluye selección, casillas y validación básica.</p>
+                <p>Objetivo: comprender cómo funcionan los datos en la URL y practicar páginas internas.</p>
+            </article>
+
+            <article class="tarjeta portafolio-item">
+                <figure>
+                    <img src="img/espe/portafolio.jpg" alt="Ilustración: portafolio y resumen de habilidades" width="280">
+                    <figcaption>Portafolio con tarjetas, tabla y progreso de habilidades.</figcaption>
+                </figure>
+                <h3>Portafolio tecnológico</h3>
+                <p>
+                    Página dedicada a mostrar el avance de aprendizaje, las habilidades en HTML y CSS, y los resultados
+                    esperados.</p>
+                <p>Objetivo: crear un documento propio que complemente el contenido del proyecto base.</p>
+            </article>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades y progreso</h2>
+
+            <table class="tabla-habilidades" border="1">
+                <caption>Resumen de habilidades y progreso</caption>
+                <thead>
+                    <tr>
+                        <th>Habilidad</th>
+                        <th>Descripción</th>
+                        <th>Progreso</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML semántico</td>
+                        <td>Uso correcto de etiquetas como header, nav, section, article y footer.</td>
+                        <td>
+                            <progress value="90" max="100"></progress>
+                            <span>90%</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>CSS básico</td>
+                        <td>Estilos compartidos en general.css y estilos específicos en portafolio.css.</td>
+                        <td>
+                            <progress value="75" max="100"></progress>
+                            <span>75%</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Multimedia</td>
+                        <td>Integración de imágenes, audio y video con rutas relativas y atributos adecuados.</td>
+                        <td>
+                            <progress value="80" max="100"></progress>
+                            <span>80%</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Formularios</td>
+                        <td>Creación de formularios con campos, botón de envío y validación HTML.</td>
+                        <td>
+                            <progress value="70" max="100"></progress>
+                            <span>70%</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="resultados">
+            <h2>Resultados de aprendizaje</h2>
+            <article class="tarjeta resultado-item">
+                <p>
+                    En esta página se refuerza el uso de etiquetas semánticas, el diseño de bloques de contenido y la
+                    organización de una página coherente con el resto del sitio.
+                </p>
+                <p>
+                    Además, se practica la creación de un nuevo archivo CSS dedicado que mantiene la identidad visual del
+                    proyecto original.
+                </p>
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Geovanny Brito Casanova.</p>
+        <p>Portafolio tecnológico creado como ampliación del proyecto PracticaCSSFinal.</p>
+        <address>
+            Ecuador<br>
+            Contacto académico: curso@ejemplo.com
+        </address>
+    </footer>
+
+</body>
+
+</html>
